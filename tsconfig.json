@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "outDir": "dst/",
+    "rootDir": "src/",
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es2018",
+    "lib": ["es2018", "esnext.asynciterable"],
+  }
+}

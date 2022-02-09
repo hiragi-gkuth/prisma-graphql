@@ -1,0 +1,31 @@
+{
+  "name": "prisma-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "tsc",
+    "serve": "ts-node src/main.ts"
+  },
+  "author": "hiragi-gkuth",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/koa__router": "^8.0.11",
+    "prisma": "^3.8.1"
+  },
+  "dependencies": {
+    "@koa/router": "^10.1.1",
+    "@prisma/client": "^3.8.1",
+    "class-validator": "^0.13.2",
+    "graphql": "^15.8.0",
+    "graphql-fields": "^2.0.3",
+    "graphql-scalars": "^1.14.1",
+    "koa": "^2.13.4",
+    "koa-graphql": "^0.12.0",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.4.0",
+    "type-graphql": "^1.1.1",
+    "typegraphql-prisma": "^0.18.4",
+    "typescript": "^4.5.5"
+  }
+}
